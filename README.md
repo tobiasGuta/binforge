@@ -16,3 +16,20 @@ binforge myfile.s -g
 ```
 
 ![image](https://github.com/user-attachments/assets/f21b190b-7906-4112-a70a-a3c43df63ef3)
+
+
+# Move binforge to bin
+
+```bash
+mv /path/to/binforge.sh ~/bin/
+```
+
+After that, add it to your PATH like this in your .zshrc or .bashrc
+
+```bash
+export PATH=$PATH:$HOME/bin
+```
+
+```bash
+source ~/.zshrc
+```
