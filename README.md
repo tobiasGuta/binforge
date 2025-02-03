@@ -33,3 +33,12 @@ export PATH=$PATH:$HOME/bin
 ```bash
 source ~/.zshrc
 ```
+
+# More functionality
+You can use GEF. GEF is a free and open-source GDB plugin that is built precisely for reverse engineering and binary exploitation. 
+```bash
+$ wget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py
+$ echo source ~/.gdbinit-gef.py >> ~/.gdbinit
+```
+
+![image](https://github.com/user-attachments/assets/10ac4d04-dc08-4bd6-8552-c852113f26bc)
